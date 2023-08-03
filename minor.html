@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>MONA</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .title-bar {
+    background-color: #111111;
+    padding: 19px;
+    text-align: right;
+  }
+
+  .title-bar a {
+    color: #ffffff;
+    text-decoration: none; 
+    margin: 10px;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #111111;
+    width: fit-content;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    padding: 10px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  a {
+    color: #8f8477;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #ffcc66;
+  }
+
+
+    .page-header {
+      background-color: rgba(249, 249, 249, 0.7);
+      left: 0;
+      right: 0;
+      top: 0;
+      z-index: 9999;
+      background-size: 50%
+    }
+
+    .page-header h1 {
+      font-size: 40px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .header-image {
+      position: absolute;
+      top: 40px;
+      right: 40px;
+      width: 150px;
+      margin-top: 80px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding: 20px;
+      background-color: rgba(249, 249, 249, 0.8);
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .output-heading {
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      color: #ff9900;
+    }
+
+    .output-box {
+      border: 1px solid #ff9900;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      overflow-y: auto;
+      max-height: 300px;
+    }
+
+    .output-box ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .github-link {
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .github-link a {
+      color: #fff;
+      text-decoration: none;
+      border: 1px solid #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+
+    .github-link a:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    .hr {
+      background-color: rgba(249, 249, 249, 0.8);
+      color: black;
+      text-align: center;
+      padding: 10px;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="title-bar">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+        <a href="#">Project</a>
+        <div class="dropdown-content">
+          <a href="minor.html">Minor project</a>
+          <a href="time.html">Time Management App</a>
+        </div>
+      </div>
+      <a href="kind.html">Spread Kindness</a>
+      <a href="#contact">Contact Us</a>
+    </div>
+
+  <div class="page-header">
+    <h1>MONA: THE VIRTUAL ASSISTANT</h1>
+  </div>
+  <img src="mona.jpg" alt="Robot" class="header-image">
+  <div class="container">
+    <div class="output-heading">About</div>
+    <div class="output-box">
+      <b>“A MINOR PROJECT REPORT SUBMITTED FOR PARTIAL FULFILLMENT OF THE DEGREE OF BACHELORS’ IN COMPUTER ENGINEERING”</b>
+      <p>This is the project done by the students of BCT as Third Year Minor Project.</p>
+    </div>
+
+    <div class="output-heading">WHO IS MONA?</div>
+    <div class="output-box">
+      <p>Meet MONA, your delightful AI sidekick, always ready to lend a digital hand and unravel the mysteries of the universe at your command. Whether it's tackling tasks or quenching your curiosity, she's your trusty companion on the journey of knowledge and efficiency.</p>
+      <p>MONA, the adorable AI wonder, was lovingly crafted with the magic of Python spells.</p>
+    </div>
+
+    <div class="output-heading">WHAT MONA CAN DO?</div>
+    <div class="output-box">
+      <ul>
+        <li>Say date, time</li>
+        <li>Tell the weather on the basis of given location</li>
+        <li>Open Email</li>
+        <li>Search things on Youtube</li>
+        <li>Conduct a chitchat</li>
+      </ul>
+      <b>ASK ANYTHING!!</b> <br>
+      <b>But MONA is still in her cocoon, preparing to spread her AI wings and dazzle the world with her brilliance. But don't worry, she'll be fluttering into action soon, ready to charm and assist you with her enchanting powers!</b>
+      <div class="github-link">
+        <a href="https://github.com/Samiikshyaa?tab=repositories" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+  </div>
+  <div class="hr">
+    <b>MONA -THE VIRTUAL ASSISTANT</b> 2023 &copy; Designed for a minor project<br>
+    <b>Creators: Pratik Kumar Labh, Samikshya Timalsina, Suyog Sharma, Utsav Sharma</b>
+
+  </div>
+</body>
+
+</html>
