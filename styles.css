@@ -69,7 +69,7 @@ h1, h2 {
     margin: 0;
 }
 
-/* Timer Section Styles */
+/* Timer */
 #timer {
     text-align: center;
     margin-bottom: 2rem;
@@ -109,7 +109,7 @@ button:hover {
     background-color: #444;
 }
 
-/* Tasks Section Styles */
+/* Tasks*/
 #tasks {
     background-color: #fff;
     padding: 1rem;
@@ -160,7 +160,7 @@ button.delete-task:hover {
     background-color: #ff4444;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 600px) {
     main {
         padding: 1rem;
@@ -185,19 +185,17 @@ button.delete-task:hover {
     }
 }
 
-/* Adding styles for completed tasks */
+/* Completed tasks */
 .completed {
     text-decoration: line-through;
     color: #777;
 }
 
-
-/* Adding margin between the task text and delete button */
 li {
     display: flex;
     align-items: center;
 }
 
 .delete-task {
-    margin-left: 10px; /* You can adjust the value as per your preference */
+    margin-left: 10px; 
 }
