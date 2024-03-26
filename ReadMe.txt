@@ -1,5 +1,5 @@
 Hello!
-In my seventh semester, I worked on this project, here's still much more to update and improve.
+In my seventh semester, I worked on this project but still much more to update and improve.
 This is a simple portfolio project, I have made using html, css and java. For validation of form, php is used.
 
 Index.html contains the home page of the project. 
