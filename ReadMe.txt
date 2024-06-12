@@ -6,3 +6,4 @@ Index.html contains the home page of the project.
 From "index.html" you can access different pages like my project detail, contact us page.
 It in my project section, I have added time management app and detail about mona: the virtual assistant project that I made.  
 
+https://portfolio101-rose.vercel.app/
